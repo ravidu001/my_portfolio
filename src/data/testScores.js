@@ -2,56 +2,66 @@
 export const testScores = [
   {
     id: 1,
-    name: "IELTS",
-    score: "8.5/9.0",
-    category: "Language Proficiency",
-    date: "2023",
+    name: "G.C.E. Advanced Level",
+    score: "3 A's & 1 B",
+    category: "National Examination",
+    date: "2021",
     breakdown: {
-      "Listening": "8.5",
-      "Reading": "9.0",
-      "Writing": "8.0",
-      "Speaking": "8.5"
+      "Combined Mathematics": "B",
+      "Physics": "B",
+      "ICT": "A",
+      "General English": "A"
     },
-    description: "Overall Band Score of 8.5 - Expert User Level"
+    description: "Physical Science Stream - Mathematics, Physics & ICT"
   },
   {
     id: 2,
-    name: "GRE",
-    score: "325/340",
-    category: "Graduate Admission",
-    date: "2023",
+    name: "G.C.E. Ordinary Level",
+    score: "7 A's & 2 B's",
+    category: "National Examination",
+    date: "2018",
     breakdown: {
-      "Verbal Reasoning": "162/170",
-      "Quantitative Reasoning": "163/170",
-      "Analytical Writing": "4.5/6.0"
+      "Sinhala": "A",
+      "Buddhism": "A",
+      "Mathematics": "A",
+      "Science": "B",
+      "English": "A",
+      "History": "A",
+      "ICT": "A",
+      "English Literature": "A",
+      "Commerce": "A"
     },
-    description: "Total Score: 325 (94th Percentile)"
+    description: "Excellent performance with 7 A's including core subjects"
   },
   {
     id: 3,
-    name: "LeetCode",
-    score: "2100+ Rating",
-    category: "Programming",
-    date: "2024",
+    name: "HackerRank Certifications",
+    score: "7+ Certifications",
+    category: "Programming Skills",
+    date: "2025",
     breakdown: {
-      "Problems Solved": "500+",
-      "Contest Rating": "2100",
-      "Global Ranking": "Top 5%"
+      "Frontend Developer (React)": "Certified",
+      "Software Engineer Intern": "Certified",
+      "Problem Solving": "Basic",
+      "Python": "Basic",
+      "React": "Basic",
+      "SQL": "Basic",
+      "JavaScript": "Basic"
     },
-    description: "Active competitive programmer with consistent performance"
+    description: "Multiple certifications demonstrating proficiency in various programming domains"
   },
   {
     id: 4,
-    name: "HackerRank",
-    score: "5 Star",
-    category: "Programming",
+    name: "University Achievements",
+    score: "Director's List 2024",
+    category: "Academic Excellence",
     date: "2024",
     breakdown: {
-      "Problem Solving": "5 Star (Gold)",
-      "Python": "5 Star (Gold)",
-      "JavaScript": "5 Star (Gold)",
-      "SQL": "4 Star (Silver)"
+      "Director's List": "2024",
+      "Chess Championship": "Champion",
+      "4x100m Relay": "1st Runner-Up",
+      "Interfaculty Events": "Multiple Wins"
     },
-    description: "Multiple 5-star badges in various domains"
+    description: "Recognition for academic excellence and sports achievements at University of Colombo"
   }
 ];

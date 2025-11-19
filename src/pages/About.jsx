@@ -6,19 +6,21 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   const aboutStats = [
-    { icon: FaLaptopCode, value: '50+', label: 'Projects Completed' },
-    { icon: FaRocket, value: '3+', label: 'Years Experience' },
-    { icon: FaLightbulb, value: '500+', label: 'Problems Solved' },
-    { icon: FaUsers, value: '20+', label: 'Happy Clients' }
+    { icon: FaLaptopCode, value: '9+', label: 'Major Projects' },
+    { icon: FaRocket, value: '15+', label: 'Certifications' },
+    { icon: FaLightbulb, value: '2024', label: "Director's List" },
+    { icon: FaUsers, value: '3+', label: 'Leadership Roles' }
   ];
 
   const interests = [
-    'Web Development',
-    'Mobile Apps',
+    'Full Stack Development',
+    'Mobile Apps (React Native)',
+    'DevOps & Cloud (AWS)',
+    'Microservices Architecture',
+    'IoT & Embedded Systems',
     'UI/UX Design',
-    'Open Source',
     'Competitive Programming',
-    'Teaching & Mentoring'
+    'Chess & Athletics'
   ];
 
   return (
@@ -40,8 +42,8 @@ const About = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&h=700&fit=crop"
-                alt="Profile"
+                src="/Profile Picture.jpeg"
+                alt="Ravidu Peiris - Profile"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary-900/50 to-transparent"></div>
@@ -64,22 +66,21 @@ const About = () => {
             
             <div className="space-y-4 text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
               <p>
-                I'm a passionate Full Stack Developer with a strong focus on building modern,
-                scalable, and user-friendly web applications. With over 3 years of experience,
-                I've worked on various projects ranging from e-commerce platforms to complex
-                data visualization dashboards.
+                I'm a passionate Computer Science undergraduate at the University of Colombo School of Computing (UCSC),
+                specializing in full-stack development and modern web technologies. I've built diverse projects ranging 
+                from microservices travel platforms to production-ready e-commerce systems deployed on AWS.
               </p>
               
               <p>
-                My journey in tech started with a fascination for problem-solving and has evolved
-                into a career where I get to turn ideas into reality through code. I'm proficient
-                in both frontend and backend technologies, with a special love for React and Node.js.
+                My journey in tech is marked by hands-on experience with React, React Native, Node.js, MongoDB, and DevOps 
+                practices including Docker containerization and CI/CD pipelines. I've earned multiple HackerRank certifications 
+                in React, JavaScript, Python, and SQL, and achieved the Director's List recognition in 2024 at UCSC.
               </p>
               
               <p>
-                When I'm not coding, you'll find me contributing to open-source projects,
-                participating in hackathons, or sharing knowledge with the developer community.
-                I believe in continuous learning and staying updated with the latest industry trends.
+                Beyond academics, I serve as a Student Ambassador for ISACA UCSC, Vice President for LevelStair UCSC, 
+                and hold leadership roles in the Computer Society. When I'm not coding, you'll find me competing in chess 
+                tournaments, exploring IoT projects, or mentoring fellow developers.
               </p>
             </div>
 

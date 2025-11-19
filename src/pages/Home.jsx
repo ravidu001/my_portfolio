@@ -11,9 +11,10 @@ const Home = () => {
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const roles = [
     'Full Stack Developer',
-    'React Specialist',
-    'Problem Solver',
-    'UI/UX Enthusiast'
+    'React & React Native Specialist',
+    'DevOps Enthusiast',
+    'UCSC Computer Science Student',
+    'Problem Solver'
   ];
 
   // Typing animation effect
@@ -71,6 +72,20 @@ const Home = () => {
           animate="visible"
           className="text-center space-y-8"
         >
+          {/* Profile Picture */}
+          <motion.div variants={itemVariants} className="flex justify-center mb-8">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary-500 dark:border-primary-400 shadow-2xl"
+            >
+              <img
+                src="/Profile Picture.jpeg"
+                alt="Ravidu Peiris"
+                className="w-full h-full object-cover"
+              />
+            </motion.div>
+          </motion.div>
+
           {/* Greeting */}
           <motion.div variants={itemVariants}>
             <p className="text-lg md:text-xl text-primary-600 dark:text-primary-400 font-medium">
@@ -99,8 +114,8 @@ const Home = () => {
             variants={itemVariants}
             className="text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto"
           >
-            Passionate about creating beautiful, functional, and user-friendly web applications.
-            I love turning complex problems into simple, elegant solutions.
+            Computer Science undergraduate at UCSC, passionate about building scalable web and mobile applications.
+            Experienced in React, Node.js, AWS, and microservices architecture. Director's List 2024 achiever.
           </motion.p>
 
           {/* Social Links */}

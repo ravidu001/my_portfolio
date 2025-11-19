@@ -1,50 +1,60 @@
 // Skills data organized by categories
 export const skills = {
   "Frontend": [
-    { name: "React", level: 90, icon: "⚛️" },
-    { name: "JavaScript", level: 95, icon: "🟨" },
-    { name: "TypeScript", level: 85, icon: "🔷" },
+    { name: "React", level: 95, icon: "⚛️" },
+    { name: "React Native", level: 90, icon: "�" },
+    { name: "JavaScript (ES6+)", level: 95, icon: "�" },
     { name: "HTML/CSS", level: 95, icon: "🎨" },
-    { name: "Tailwind CSS", level: 90, icon: "💨" },
-    { name: "Next.js", level: 85, icon: "▲" },
+    { name: "Tailwind CSS", level: 92, icon: "💨" },
+    { name: "Vite", level: 88, icon: "⚡" },
     { name: "Redux", level: 80, icon: "🔄" },
-    { name: "Vue.js", level: 70, icon: "💚" }
+    { name: "Material-UI", level: 85, icon: "🎯" }
   ],
   "Backend": [
-    { name: "Node.js", level: 90, icon: "🟢" },
-    { name: "Express", level: 85, icon: "🚂" },
-    { name: "Python", level: 85, icon: "🐍" },
-    { name: "Django", level: 75, icon: "🎸" },
-    { name: "Flask", level: 80, icon: "🌶️" },
-    { name: "REST APIs", level: 90, icon: "🔌" },
-    { name: "GraphQL", level: 75, icon: "◈" }
+    { name: "Node.js", level: 92, icon: "🟢" },
+    { name: "Express.js", level: 90, icon: "🚂" },
+    { name: "PHP", level: 85, icon: "�" },
+    { name: "Python", level: 88, icon: "🐍" },
+    { name: "REST APIs", level: 93, icon: "🔌" },
+    { name: "JWT Authentication", level: 90, icon: "�" },
+    { name: "Microservices", level: 85, icon: "🏗️" }
   ],
   "Database": [
-    { name: "MongoDB", level: 85, icon: "🍃" },
-    { name: "PostgreSQL", level: 80, icon: "🐘" },
-    { name: "MySQL", level: 80, icon: "🐬" },
-    { name: "Redis", level: 70, icon: "🔴" },
-    { name: "Firebase", level: 85, icon: "🔥" }
+    { name: "MongoDB", level: 92, icon: "🍃" },
+    { name: "MySQL", level: 88, icon: "�" },
+    { name: "Firebase", level: 85, icon: "�" },
+    { name: "Appwrite", level: 82, icon: "🔧" }
   ],
-  "DevOps & Tools": [
+  "DevOps & Cloud": [
+    { name: "AWS EC2", level: 88, icon: "☁️" },
+    { name: "Docker", level: 90, icon: "�" },
+    { name: "CI/CD (GitHub Actions)", level: 85, icon: "�" },
+    { name: "Nginx", level: 82, icon: "🌐" },
     { name: "Git & GitHub", level: 95, icon: "🐙" },
-    { name: "Docker", level: 80, icon: "🐳" },
-    { name: "AWS", level: 75, icon: "☁️" },
-    { name: "CI/CD", level: 75, icon: "🔄" },
-    { name: "Linux", level: 85, icon: "🐧" },
-    { name: "Nginx", level: 70, icon: "🌐" }
+    { name: "Linux", level: 85, icon: "🐧" }
   ],
-  "Mobile": [
-    { name: "React Native", level: 80, icon: "📱" },
-    { name: "Expo", level: 75, icon: "🎯" },
-    { name: "Flutter", level: 65, icon: "🦋" }
+  "Mobile & IoT": [
+    { name: "React Native", level: 90, icon: "�" },
+    { name: "Expo", level: 88, icon: "🎯" },
+    { name: "ESP32/Arduino", level: 85, icon: "🤖" },
+    { name: "IoT Development", level: 82, icon: "�" },
+    { name: "Embedded Systems", level: 80, icon: "⚙️" }
   ],
-  "Other": [
-    { name: "Data Structures", level: 90, icon: "🌳" },
-    { name: "Algorithms", level: 85, icon: "🧮" },
-    { name: "System Design", level: 80, icon: "🏗️" },
-    { name: "Agile/Scrum", level: 85, icon: "🔄" },
-    { name: "UI/UX Design", level: 75, icon: "🎨" }
+  "Tools & Design": [
+    { name: "Figma", level: 85, icon: "🎨" },
+    { name: "Adobe Photoshop", level: 82, icon: "🖼️" },
+    { name: "UI/UX Design", level: 85, icon: "✨" },
+    { name: "GNU Octave", level: 78, icon: "�" },
+    { name: "Stripe Integration", level: 88, icon: "💳" },
+    { name: "Google Maps API", level: 85, icon: "🗺️" }
+  ],
+  "Core Competencies": [
+    { name: "Data Structures", level: 92, icon: "🌳" },
+    { name: "Algorithms", level: 90, icon: "🧮" },
+    { name: "Problem Solving", level: 95, icon: "💡" },
+    { name: "System Architecture", level: 85, icon: "�️" },
+    { name: "Agile Methodology", level: 82, icon: "🔄" },
+    { name: "Team Leadership", level: 88, icon: "👥" }
   ]
 };
 

@@ -1,45 +1,63 @@
 // Social media links for the portfolio
-import { FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+
+import { SiHackerrank } from 'react-icons/si';
 
 export const socialMedia = [
   {
     id: 1,
     name: "GitHub",
-    url: "https://github.com/yourusername",
+    url: "https://github.com/ravidu001",
     icon: FaGithub,
     color: "#181717",
-    username: "@yourusername"
+    username: "@ravidu001"
   },
   {
     id: 2,
     name: "LinkedIn",
-    url: "https://linkedin.com/in/yourusername",
+    url: "https://www.linkedin.com/in/ravidu-peiris/",
     icon: FaLinkedin,
     color: "#0A66C2",
-    username: "Your Name"
+    username: "Ravidu Peiris"
   },
   {
     id: 3,
-    name: "Twitter",
-    url: "https://twitter.com/yourusername",
-    icon: FaTwitter,
-    color: "#1DA1F2",
-    username: "@yourusername"
+    name: "HackerRank",
+    url: "https://www.hackerrank.com/profile/ravidupeiris2002",
+    icon: SiHackerrank,
+    color: "#00EA64",
+    username: "@ravidupeiris2002"
   },
   {
     id: 4,
-    name: "Email",
-    url: "mailto:your.email@example.com",
-    icon: FaEnvelope,
-    color: "#EA4335",
-    username: "your.email@example.com"
+    name: "Instagram",
+    url: "https://www.instagram.com/ravidu_peiris/",
+    icon: FaInstagram,
+    color: "#E4405F",
+    username: "@ravidu_peiris"
   },
   {
     id: 5,
-    name: "Instagram",
-    url: "https://instagram.com/yourusername",
-    icon: FaInstagram,
-    color: "#E4405F",
-    username: "@yourusername"
+    name: "Twitter",
+    url: "https://x.com/ravidu_peiris",
+    icon: FaTwitter,
+    color: "#1DA1F2",
+    username: "@ravidu_peiris"
+  },
+  {
+    id: 6,
+    name: "Facebook",
+    url: "https://www.facebook.com/profile.php?id=100093841026488",
+    icon: FaFacebook,
+    color: "#1877F2",
+    username: "Ravidu Peiris"
+  },
+  {
+    id: 7,
+    name: "Email",
+    url: "mailto:ravidupeiris2002@gmail.com",
+    icon: FaEnvelope,
+    color: "#EA4335",
+    username: "ravidupeiris2002@gmail.com"
   }
 ];
