@@ -72,6 +72,46 @@ export const certifications = [
   },
   {
     id: 8,
+    title: "Discover the Art of Prompting",
+    issuer: "Google - Coursera",
+    date: "Aug 2025",
+    credentialId: "Y5WQ7NIBNLU3",
+    link: "https://www.coursera.org/account/accomplishments/verify/Y5WQ7NIBNLU3",
+    description: "Mastered the art of prompt engineering and effective communication with AI systems to achieve optimal results.",
+    skills: ["Prompt Engineering", "AI", "Communication", "Critical Thinking"]
+  },
+  {
+    id: 9,
+    title: "Introduction to AI",
+    issuer: "Google - Coursera",
+    date: "Aug 2025",
+    credentialId: "S3OV05N8JCE6",
+    link: "https://www.coursera.org/account/accomplishments/verify/S3OV05N8JCE6",
+    description: "Comprehensive introduction to artificial intelligence fundamentals, machine learning concepts, and AI applications.",
+    skills: ["Artificial Intelligence", "Machine Learning", "AI Fundamentals"]
+  },
+  {
+    id: 10,
+    title: "Maximize Productivity With AI Tools",
+    issuer: "Google - Coursera",
+    date: "Aug 2025",
+    credentialId: "QHXRDJ7504J5",
+    link: "https://www.coursera.org/account/accomplishments/verify/QHXRDJ7504J5",
+    description: "Learned to leverage AI tools and technologies to enhance productivity, automate workflows, and optimize work processes.",
+    skills: ["AI Tools", "Productivity", "Automation", "Workflow Optimization"]
+  },
+  {
+    id: 11,
+    title: "Use AI Responsibly",
+    issuer: "Google - Coursera",
+    date: "Aug 2025",
+    credentialId: "15TNHI6LYV1M",
+    link: "https://www.coursera.org/account/accomplishments/verify/15TNHI6LYV1M",
+    description: "Comprehensive training on ethical AI usage, responsible AI development, and understanding AI bias and fairness.",
+    skills: ["AI Ethics", "Responsible AI", "AI Governance", "Ethics"]
+  },
+  {
+    id: 12,
     title: "MERN Stack: Launch Your Startup Idea",
     issuer: "Google Developer Groups, VIT-AP",
     date: "Jul 2025",
@@ -81,7 +121,7 @@ export const certifications = [
     skills: ["MERN Stack", "MongoDB", "Express", "React", "Node.js"]
   },
   {
-    id: 9,
+    id: 13,
     title: "MERN Stack: Launch Your Startup Idea",
     issuer: "Microsoft Student Chapter - MSIT",
     date: "Jul 2025",
@@ -91,7 +131,7 @@ export const certifications = [
     skills: ["Full Stack", "MERN", "Web Development"]
   },
   {
-    id: 10,
+    id: 14,
     title: "Python Programming",
     issuer: "University of Moratuwa",
     date: "Jun 2025",
@@ -101,7 +141,7 @@ export const certifications = [
     skills: ["Python", "OOP", "Data Analysis"]
   },
   {
-    id: 11,
+    id: 15,
     title: "Diploma in Marketing",
     issuer: "LPEC Campus",
     date: "Dec 2024",
@@ -111,7 +151,7 @@ export const certifications = [
     skills: ["Marketing", "Digital Marketing", "Business Strategy"]
   },
   {
-    id: 12,
+    id: 16,
     title: "AWS Educate Introduction to Cloud 101",
     issuer: "Amazon Web Services (AWS)",
     date: "Aug 2024",
@@ -121,7 +161,7 @@ export const certifications = [
     skills: ["AWS", "Cloud Computing", "Cloud Architecture"]
   },
   {
-    id: 13,
+    id: 17,
     title: "Advanced Multimedia Web Design & Development Technique",
     issuer: "University of Colombo School of Computing",
     date: "Jul 2024",
@@ -131,7 +171,7 @@ export const certifications = [
     skills: ["Web Design", "Multimedia", "Responsive Design"]
   },
   {
-    id: 14,
+    id: 18,
     title: "Web Design for Beginners",
     issuer: "University of Moratuwa",
     date: "Jan 2024",
@@ -141,7 +181,7 @@ export const certifications = [
     skills: ["HTML", "CSS", "Web Design"]
   },
   {
-    id: 15,
+    id: 19,
     title: "Python for Beginners",
     issuer: "University of Moratuwa",
     date: "Mar 2023",

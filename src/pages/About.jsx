@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const About = () => {
   const aboutStats = [
     { icon: FaLaptopCode, value: '9+', label: 'Major Projects' },
-    { icon: FaRocket, value: '15+', label: 'Certifications' },
+    { icon: FaRocket, value: '19+', label: 'Certifications' },
     { icon: FaLightbulb, value: '2024', label: "Director's List" },
     { icon: FaUsers, value: '3+', label: 'Leadership Roles' }
   ];

@@ -22,7 +22,6 @@ export const skills = {
   "Database": [
     { name: "MongoDB", level: 92, icon: "🍃" },
     { name: "MySQL", level: 88, icon: "�" },
-    { name: "Firebase", level: 85, icon: "�" },
     { name: "Appwrite", level: 82, icon: "🔧" }
   ],
   "DevOps & Cloud": [
