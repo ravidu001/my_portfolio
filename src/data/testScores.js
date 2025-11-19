@@ -17,7 +17,7 @@ export const testScores = [
   {
     id: 2,
     name: "G.C.E. Ordinary Level",
-    score: "7 A's & 2 B's",
+    score: "8 A's & 1 B's",
     category: "National Examination",
     date: "2018",
     breakdown: {
@@ -31,7 +31,7 @@ export const testScores = [
       "English Literature": "A",
       "Commerce": "A"
     },
-    description: "Excellent performance with 7 A's including core subjects"
+    description: "Excellent performance with 8 A's including core subjects"
   },
   {
     id: 3,

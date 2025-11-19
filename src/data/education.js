@@ -76,7 +76,7 @@ export const education = [
     institution: "Royal College Panadura",
     location: "Panadura, Sri Lanka",
     duration: "Jan 2007 - Dec 2018",
-    grade: "7 A's including Mathematics, Science, ICT & English",
+    grade: "8 A's & 1 B's including Mathematics, Science, ICT & English",
     description: "Completed O/L with outstanding results. Active in extracurricular activities including chess, athletics, and scouting.",
     highlights: [
       "Junior & Senior Prefect",
