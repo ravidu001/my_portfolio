@@ -79,8 +79,8 @@ const Skills = () => {
         {/* Additional Info */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
           className="mt-16 text-center"
         >
           <Card className="max-w-3xl mx-auto bg-gradient-to-r from-primary-500 to-blue-600 text-white">

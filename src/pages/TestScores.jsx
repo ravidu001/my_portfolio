@@ -19,9 +19,8 @@ const TestScores = () => {
             <Card key={test.id}>
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.3 }}
               >
                 {/* Header */}
                 <div className="flex items-center justify-between mb-4">

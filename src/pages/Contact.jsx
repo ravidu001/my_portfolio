@@ -69,19 +69,19 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com'
+      value: 'ravidupeiris2002@gmail.com',
+      link: 'mailto:ravidupeiris2002@gmail.com'
     },
     {
       icon: FaPhone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      value: '(+94) 77 050 7510',
+      link: 'tel:+94770507510'
     },
     {
       icon: FaMapMarkerAlt,
       title: 'Location',
-      value: 'City, Country',
+      value: 'Panadura, Sri Lanka',
       link: null
     }
   ];
@@ -99,8 +99,8 @@ const Contact = () => {
           <Card>
             <motion.form
               initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.3 }}
               onSubmit={handleSubmit}
               className="space-y-6"
             >
@@ -124,7 +124,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
-                  placeholder="John Doe"
+                  placeholder="Annon Smith"
                 />
               </div>
 
@@ -144,7 +144,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all"
-                  placeholder="john@example.com"
+                  placeholder="annon@example.com"
                 />
               </div>
 
@@ -204,8 +204,8 @@ const Contact = () => {
           <div className="space-y-6">
             <motion.div
               initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.3 }}
             >
               <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6">
                 Contact Information

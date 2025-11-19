@@ -27,40 +27,24 @@ const About = () => {
     <div className="min-h-screen pt-24 pb-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
       <div className="container-custom section-padding">
         {/* Header Section */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="text-center mb-16"
-        >
-          <motion.div
-            initial={{ scale: 0.5, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="inline-block mb-4"
-          >
+        <div className="text-center mb-16">
+          <div className="inline-block mb-4">
             <span className="px-4 py-2 bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 rounded-full text-sm font-semibold">
               👋 Get to know me better
             </span>
-          </motion.div>
+          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-gray-900 dark:text-gray-100 mb-4">
             About Me
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Passionate developer, problem solver, and lifelong learner
           </p>
-        </motion.div>
+        </div>
 
         {/* Main Content Grid */}
         <div className="grid lg:grid-cols-3 gap-8 mb-16">
           {/* Left Column - Profile Picture & Quick Stats */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="lg:col-span-1"
-          >
+          <div className="lg:col-span-1">
             {/* Profile Picture Card */}
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 mb-6 sticky top-24">
               <div className="relative mb-6">
@@ -103,12 +87,8 @@ const About = () => {
                 {aboutStats.map((stat, index) => {
                   const Icon = stat.icon;
                   return (
-                    <motion.div
+                    <div
                       key={index}
-                      initial={{ opacity: 0, y: 10 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true }}
-                      transition={{ delay: index * 0.1 }}
                       className="bg-gradient-to-br from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 rounded-xl p-4 text-center"
                     >
                       <Icon className="w-6 h-6 text-primary-600 dark:text-primary-400 mx-auto mb-2" />
@@ -118,21 +98,15 @@ const About = () => {
                       <p className="text-xs text-gray-600 dark:text-gray-400 mt-1">
                         {stat.label}
                       </p>
-                    </motion.div>
+                    </div>
                   );
                 })}
               </div>
             </div>
-          </motion.div>
+          </div>
 
           {/* Right Column - Story & Content */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="lg:col-span-2 space-y-6"
-          >
+          <div className="lg:col-span-2 space-y-6">
             {/* My Story Card */}
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
               <div className="flex items-center gap-3 mb-6">
@@ -186,10 +160,6 @@ const About = () => {
                 {interests.map((interest, index) => (
                   <motion.span
                     key={index}
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.05 }}
                     whileHover={{ scale: 1.05, y: -3 }}
                     className="group relative px-5 py-3 bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 
                              hover:from-primary-100 hover:to-blue-100 dark:hover:from-primary-900/30 dark:hover:to-blue-900/30
@@ -244,7 +214,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>

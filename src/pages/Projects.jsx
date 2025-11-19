@@ -53,9 +53,8 @@ const Projects = () => {
             <Card key={project.id} className="flex flex-col h-full">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3 }}
                 className="flex flex-col h-full"
               >
                 {/* Project Image */}
