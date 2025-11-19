@@ -57,7 +57,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Animation */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-primary-300 dark:bg-primary-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-xl opacity-70 animate-blob"></div>
@@ -65,18 +65,19 @@ const Home = () => {
         <div className="absolute bottom-20 left-1/2 w-72 h-72 bg-purple-300 dark:bg-purple-900 rounded-full mix-blend-multiply dark:mix-blend-soft-light filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </div>
 
-      <div className="container-custom">
+      <div className="container-custom py-8">
         <motion.div
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="text-center space-y-8"
+          className="text-center space-y-6"
         >
           {/* Profile Picture */}
-          <motion.div variants={itemVariants} className="flex justify-center mb-8">
+          <motion.div variants={itemVariants} className="flex justify-center">
             <motion.div
-              whileHover={{ scale: 1.05 }}
-              className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-primary-500 dark:border-primary-400 shadow-2xl"
+              whileHover={{ scale: 1.05, rotate: 2 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-primary-500 dark:border-primary-400 shadow-2xl ring-4 ring-primary-200 dark:ring-primary-800"
             >
               <img
                 src="/Profile Picture.jpeg"
