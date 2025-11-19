@@ -1,0 +1,7 @@
+# Ravidu Peiris - CV
+
+This is a placeholder file. Replace this with your actual CV PDF.
+
+To add your CV:
+1. Save your CV as a PDF file
+2. Replace this file at: public/assets/Ravidu_Peiris.pdf
