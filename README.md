@@ -82,12 +82,13 @@ my_portfolio/
 
 1. Create a free account at [EmailJS](https://www.emailjs.com/)
 2. Create an email service and template
-3. Update the EmailJS credentials in `src/pages/Contact.jsx`:
-   ```javascript
-   const serviceId = 'YOUR_SERVICE_ID';
-   const templateId = 'YOUR_TEMPLATE_ID';
-   const publicKey = 'YOUR_PUBLIC_KEY';
+3. Create an `.env` file in the project root (see `.env.example`) and add:
+   ```bash
+   VITE_EMAILJS_SERVICE_ID=your_service_id
+   VITE_EMAILJS_TEMPLATE_ID=your_template_id
+   VITE_EMAILJS_PUBLIC_KEY=your_public_key
    ```
+4. Restart the dev server after changing environment variables.
 
 ### Customization
 

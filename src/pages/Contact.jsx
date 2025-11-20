@@ -11,6 +11,10 @@ import { motion } from 'framer-motion';
 import { socialMedia } from '../data/socialMedia';
 import { useState } from 'react';
 
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -36,15 +40,14 @@ const Contact = () => {
       return;
     }
 
+    if (!EMAILJS_SERVICE_ID || !EMAILJS_TEMPLATE_ID || !EMAILJS_PUBLIC_KEY) {
+      toast.error('Email service is temporarily unavailable. Please try again later.');
+      return;
+    }
+
     setIsLoading(true);
 
     try {
-      // EmailJS configuration
-      // Replace these with your actual EmailJS credentials
-      const serviceId = 'YOUR_SERVICE_ID';
-      const templateId = 'YOUR_TEMPLATE_ID';
-      const publicKey = 'YOUR_PUBLIC_KEY';
-
       const templateParams = {
         from_name: formData.name,
         from_email: formData.email,
@@ -53,7 +56,12 @@ const Contact = () => {
         to_name: 'Ravidu Peiris'
       };
 
-      await emailjs.send(serviceId, templateId, templateParams, publicKey);
+      await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams,
+        EMAILJS_PUBLIC_KEY
+      );
       
       toast.success('Message sent successfully! I\'ll get back to you soon.');
       setFormData({ name: '', email: '', subject: '', message: '' });
